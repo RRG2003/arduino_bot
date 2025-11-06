@@ -1,29 +1,12 @@
 ```markdown
 # 🤖 Arduinobot – A ROS2 Jazzy Based Educational Robot Platform
 
-![Arduinobot](https://github.com/RRG2003/arduino_bot/blob/main/arduinobot.jpg?raw=true)
-
 Arduinobot is a lightweight, modular, and fully ROS2-compatible robot platform designed for learning
 robotics, motion planning, kinematics, and ROS2 fundamentals.  
 This repository contains the complete stack — URDF, MoveIt2 configuration, Python/CPP nodes, custom
 services, controllers, and utilities.
 
 ---
-
-# 📂 Repository Structure
-
-```
-
-arduino_bot/
-├── arduinobot_description/      # URDF + meshes
-├── arduinobot_controller/       # ros2_control controllers + hardware interfacing
-├── arduinobot_cpp_examples/     # C++ publisher/subscriber/service/action examples
-├── arduinobot_msgs/             # Custom message + service definitions
-├── arduinobot_utils/            # Utility Python nodes (angle conversions etc.)
-├── arduinobot_moveit/           # MoveIt2 configuration package
-└── install / build / log        # Colcon workspace build outputs
-
-````
 
 ---
 
