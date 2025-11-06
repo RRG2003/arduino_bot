@@ -5,7 +5,7 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-install(DIRECTORY urdf meshes
+install(DIRECTORY urdf meshes launch rviz
   DESTINATION share/${PROJECT_NAME}
 )
 

@@ -1,4 +1,5 @@
 from setuptools import find_packages, setup
+import sys
 
 package_name = 'arduinobot_py_examples'
 
@@ -20,6 +21,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'simple_service_server = arduinobot_py_examples.simple_service_server:main',
+            'simple_service_client = arduinobot_py_examples.simple_service_client:main',
         ],
     },
 )

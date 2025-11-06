@@ -1,0 +1,62 @@
+planner_configs:
+  SBLkConfigDefault:
+    type: geometric::SBL
+    range: 0.0
+
+  ESTkConfigDefault:
+    type: geometric::EST
+    range: 0.0
+
+  LBKPIECEkConfigDefault:
+    type: geometric::LBKPIECE
+    range: 0.0
+
+  BKPIECEkConfigDefault:
+    type: geometric::BKPIECE
+    range: 0.0
+
+  KPIECEkConfigDefault:
+    type: geometric::KPIECE
+    range: 0.0
+
+  RRTkConfigDefault:
+    type: geometric::RRT
+    range: 0.0
+
+  RRTConnectkConfigDefault:
+    type: geometric::RRTConnect
+    range: 0.0
+
+  RRTstarkConfigDefault:
+    type: geometric::RRTstar
+    range: 0.0
+
+  TRRTkConfigDefault:
+    type: geometric::TRRT
+    range: 0.0
+
+  PRMkConfigDefault:
+    type: geometric::PRM
+    range: 0.0
+
+  PRMstarkConfigDefault:
+    type: geometric::PRMstar
+    range: 0.0
+
+
+##############################
+# ARM PLANNING GROUP
+##############################
+virtual_arm:
+  planner_configs:
+    - SBLkConfigDefault
+    - ESTkConfigDefault
+    - LBKPIECEkConfigDefault
+    - BKPIECEkConfigDefault
+    - KPIECEkConfigDefault
+    - RRTkConfigDefault
+    - RRTConnectkConfigDefault
+    - RRTstarkConfigDefault
+    - TRRTkConfigDefault
+    - PRMkConfigDefault
+    - PRMstarkConfigDefault
