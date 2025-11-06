@@ -29,14 +29,14 @@ arduino_bot/
 
 # 🦾 Features
 
-✅ **ROS2 Jazzy native**  
-✅ **URDF + SRDF robot model**  
-✅ **MoveIt2 motion planning support (OMPL planners)**  
-✅ **Custom ROS2 interfaces**  
-✅ **C++ example nodes (pub/sub/services)**  
-✅ **Python utility nodes**  
-✅ **Controller support (ros2_control)**  
-✅ **Fully modular and extendable**  
+✅ ROS2 Jazzy native  
+✅ URDF + SRDF robot model  
+✅ MoveIt2 motion planning support (OMPL planners)  
+✅ Custom ROS2 interfaces  
+✅ C++ example nodes (pub/sub/services)  
+✅ Python utility nodes  
+✅ Controller support (ros2_control)  
+✅ Fully modular and extendable  
 
 ---
 
@@ -242,8 +242,3 @@ If you find this useful, please ⭐ star the repository!
 
 ```
 
----
-
-
-Just tell me!
-```
